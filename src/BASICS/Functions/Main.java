@@ -30,5 +30,7 @@ public class Main {
         c.cby1();
         c.cby2(c);
         c.cby3(); // if we store the return type and print return type reference with variables then we will change the result else input doesnt changed(just stored  , not copied )
+
+
     }
 }
