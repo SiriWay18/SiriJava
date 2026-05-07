@@ -6,4 +6,10 @@ public class CallByValue {
         a=18;
         System.out.println("inside method value of a is " + a);
     }
+    public int call1(int a){
+        System.out.println("inside method value of a before is " + a);
+        a= 18;
+        System.out.println("inside method value of a after is " + a);
+        return a;
+    }
 }
