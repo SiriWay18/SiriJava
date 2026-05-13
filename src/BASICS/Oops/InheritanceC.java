@@ -1,7 +1,7 @@
 package BASICS.Oops;
 
 public class InheritanceC extends InheritanceP {
-    int a = 20 ;
+    int num = 20 ;
     @Override
     void show(){
         System.out.println("InheritanceC show");
