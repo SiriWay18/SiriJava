@@ -5,5 +5,7 @@ public class B {
     public int f2(){
         System.out.println("inside B.f2");
         return c.f3();
+        // function call another function
+
     }
 }
