@@ -1,5 +1,11 @@
 package BASICS.Oops.ExceptionHandling;
 
+class InsufficientBalanceException extends Exception {
+    public InsufficientBalanceException(String msg)
+    {
+        super(msg);
+    }
+}
 public class main {
     static void withdraw(int balance, int amount) throws InsufficientBalanceException {
         if(amount > balance){
@@ -19,10 +25,5 @@ public class main {
     }
 
 }
-class InsufficientBalanceException extends Exception {
-    public InsufficientBalanceException(String msg)
-    {
-        super(msg);
-    }
-}
+
 
